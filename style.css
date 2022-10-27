@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cards {
+    width: 800px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.columns {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.one {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.three {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.cards h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%)
+}
+
+.cards p {
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.cards button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 14px 30px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+.one button {
+    color: hsl(31, 77%, 52%);
+}
+
+.two button {
+    color: hsl(184, 100%, 22%);
+}
+
+.three button {
+    color: hsl(179, 100%, 13%);
+}
+
+.cards button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 370px) {
+    body {
+        padding: 65px 35px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+}

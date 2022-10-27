@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("workspace.jpg");
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.top-content {
+    background-color: rgb(5, 59, 95);
+    padding: 2em;
+    width: 70%;
+
+}
+
+.down-content {
+    background-color: rgb(248, 245, 245);
+    padding: 3em;
+    color: black;
+    width: 70%;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 18px 0;
+    padding: 8px 12px;
+    width: 40%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(5, 59, 95);
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(106, 106, 187);
+    color: #fff;
+}
+
+img {
+    float: inline-end;
+    margin-top: 10%;
+}
